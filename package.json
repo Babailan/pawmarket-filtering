@@ -1,0 +1,19 @@
+{
+  "name": "bun-init--y",
+  "module": "index.ts",
+  "type": "module",
+  "devDependencies": {
+    "bun-types": "latest"
+  },
+  "peerDependencies": {
+    "typescript": "^5.0.0"
+  },
+  "dependencies": {
+    "cheerio": "^1.0.0-rc.12",
+    "mongodb": "^6.1.0"
+  },
+  "scripts": {
+    "dev": "bun ./index.ts",
+    "test": "bun ./test.ts"
+  }
+}
