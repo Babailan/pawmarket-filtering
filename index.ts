@@ -15,8 +15,8 @@ async function main() {
             "settings.current_breed": { $regex: new RegExp(`^${e}`, "i") },
           });
           await n.forEach((document) => {
+            // data is the extracted data do whatever you want with it
             const data = extractData(document);
-            console.log(data);
           });
         } catch (error) {
           console.log(error);
